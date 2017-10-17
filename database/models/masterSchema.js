@@ -14,3 +14,5 @@ const masterSchema = new Schema({
     monthsAlphabetic: [{ type: String }],
     locations: [{ type: String }]
 });
+
+module.exports = mongoose.model('masters', masterSchema);
